@@ -74,3 +74,4 @@ class PollenSensor(PollenEntity):
     def icon(self):
         """ Return the icon for the frontend."""
         return SENSOR_ICONS.get(self._allergen_type, 'default')
+        super().__init__.
